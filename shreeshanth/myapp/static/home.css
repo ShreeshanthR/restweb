@@ -1,0 +1,73 @@
+:root{
+  --accent: #ed2334;
+  --bg-dk: #121212;
+  --card: #1f1f1f;
+  --muted: #d3d3d3;
+}
+
+html,body{height:100%; margin:0;}
+body.home-bg{
+  background-image: url('https://images.unsplash.com/photo-1501117716987-c8e5a4a7f7d6?auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.overlay{
+  min-height:100vh;
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+  display: flex;
+  flex-direction: column;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 36px;
+  background: rgba(0,0,0,0.25);
+  backdrop-filter: blur(4px);
+}
+.logo{display:flex; align-items:center; gap:12px;}
+.logo img{width:48px;height:48px;}
+.logo h1{margin:0; font-size:22px; color:var(--accent); letter-spacing:1px;}
+nav ul{list-style:none; margin:0; padding:0; display:flex; gap:20px;}
+nav a{color:#fff; text-decoration:none; font-weight:600;}
+nav a:hover{color:var(--accent);}
+
+.hero{flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:30px;}
+.quotes{max-width:1000px; text-align:center;}
+.big-quote{margin:6px 0; font-size:26px; font-weight:800; color:var(--accent);}
+.lead{color:var(--muted); margin:6px 0; font-size:18px;}
+
+.restaurant-figure{margin-top:28px; text-align:center; width:85%; max-width:1100px;}
+.restaurant-figure img{
+  width:100%;
+  border-radius:16px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+  display:block;
+}
+.restaurant-figure figcaption{
+  margin-top:10px;
+  font-weight:700;
+  letter-spacing:1px;
+  color:#fff;
+}
+
+footer{
+  padding:14px 20px;
+  text-align:center;
+  background: rgba(0,0,0,0.25);
+  color:#bdbdbd;
+  font-size:13px;
+}
+
+@media (max-width:700px){
+  .big-quote{font-size:18px;}
+  .logo h1{font-size:18px;}
+  nav{padding:12px 18px;}
+  .restaurant-figure{width:95%;}
+}
