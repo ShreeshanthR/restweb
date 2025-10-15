@@ -573,12 +573,12 @@ html,body{height:100%; margin:0; font-family:"Poppins", Arial, sans-serif; color
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (25).png>)
-![alt text](<Screenshot (26).png>)
-![alt text](<Screenshot (27).png>)
-![alt text](<Screenshot (28).png>)
-![alt text](<Screenshot (29).png>)
-![alt text](<Screenshot (31).png>)
+![alt text](<Screenshot (50).png>)
+![alt text](<Screenshot (51).png>)
+![alt text](<Screenshot (52).png>)
+![alt text](<Screenshot (53).png>)
+![alt text](<Screenshot (54).png>)
+![alt text](<Screenshot (55).png>)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
