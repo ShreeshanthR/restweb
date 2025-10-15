@@ -53,6 +53,7 @@ home.html
     </nav>
 
     <main class="hero">
+      <h2 align="left">Shreeshanth R - 25012265</h2>
       <div class="quotes">
         <h2 class="big-quote">"WHERE FLAVOR MEETS PASSION"</h2>
         <h2 class="big-quote">"COOKING WITH HEART, SERVING WITH SOUL"</h2>
@@ -396,6 +397,7 @@ admin.html
   <link rel="stylesheet" href="admin.css">
 </head>
 <body>
+  <h2>Shreeshanth R - 25012265</h2>
   <nav>
     <div class="logo">
       <img src="https://cdn-icons-png.flaticon.com/512/857/857681.png" alt="logo">
