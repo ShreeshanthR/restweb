@@ -580,7 +580,7 @@ html,body{height:100%; margin:0; font-family:"Poppins", Arial, sans-serif; color
 ![alt text](<Screenshot (52).png>)
 ![alt text](<Screenshot (53).png>)
 ![alt text](<Screenshot (54).png>)
-![alt text](<Screenshot (55).png>)
+![alt text](<Screenshot (56).png>)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
